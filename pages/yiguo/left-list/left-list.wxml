@@ -1,0 +1,14 @@
+<view class="top">顶部</view>
+<view class="main">
+  <view class="left">
+    <scroll-view class="left-nav" scroll-with-animation="true" scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" scroll-into-view="{{current}}">
+      <view bindtap="goToView" wx:for="abcdefghijklmnopqrstuvwxyz" wx:key="index" id="{{item}}" class="scroll-view-item {{current == item ? 'active' : ''}}">{{item}}</view>
+    </scroll-view>
+  </view>
+
+  <view class="right">
+    <scroll-view id="rightList" class="right-list" scroll-with-animation="true" scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{current1}}">
+      <view wx:for="abcdefghijklmnopqrstuvwxyz" wx:key="index" id="{{item + '1'}}" class="scroll-view-item {{current == item ? 'active' : ''}}">{{item}}</view>
+    </scroll-view>
+  </view>
+</view>

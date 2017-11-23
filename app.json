@@ -5,7 +5,8 @@
     "pages/yiguo/list/list",
     "pages/yiguo/cart/cart",
     "pages/yiguo/mine/mine",
-    "pages/yiguo/detail/detail"
+    "pages/yiguo/detail/detail",
+    "pages/yiguo/left-list/left-list"
   ],
   
   "tabBar": {
@@ -21,7 +22,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/yiguo/list/list",
+        "pagePath": "pages/yiguo/left-list/left-list",
         "iconPath": "images/icons/btn-tabs_03.png",
         "selectedIconPath": "images/icons/btn-tabs_08.png",
         "text": "分类"

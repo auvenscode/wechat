@@ -59,7 +59,7 @@ page{
   color: red;
 }
 .swiper-box{
-  height: 100%;
+  height: calc(100% - 106rpx);
 }
 .scroll-box{
   height: 100%;
